@@ -42,12 +42,14 @@ function WhoAreYou() {
                     <div className={styles.optionsWrapper}>
                         {options1.map((option, index) => (
                             <div key={index} className={styles.optionColumn1}>
-                                <Option imageSrc={option.imageSrc} buttonText={option.buttonText} buttonType={option.buttonType} buttonStyle={option.buttonStyle} navigateTo={option.navigateTo} />
+                                <a href="/Loginteacher"> <Option imageSrc={option.imageSrc} buttonText={option.buttonText} buttonType={option.buttonType} buttonStyle={option.buttonStyle} navigateTo={option.navigateTo} />
+                                </a>
                             </div>
                         ))}
                         {options.map((option, index) => (
                             <div key={index} className={styles.optionColumn}>
-                                <Option imageSrc={option.imageSrc} buttonText={option.buttonText} buttonType={option.buttonType} buttonStyle={option.buttonStyle} navigateTo={option.navigateTo} />
+                                <a href="/Loginparent"><Option imageSrc={option.imageSrc} buttonText={option.buttonText} buttonType={option.buttonType} buttonStyle={option.buttonStyle} navigateTo={option.navigateTo} />
+                                </a>
                             </div>
                         ))}
 

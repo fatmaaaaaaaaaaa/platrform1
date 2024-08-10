@@ -23,6 +23,10 @@
     }
 }
 
+a {
+    text-decoration: none;
+}
+
 .backgroundImage {
     position: absolute;
     inset: 0;
